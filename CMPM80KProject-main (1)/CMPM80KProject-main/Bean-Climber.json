@@ -101,7 +101,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Trunk 2.png\",\"extension\":\".png\"}",
         "name": "Trunk 2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/6d9bc31a95fa9c0f6ceea454eb44bd551eeea173a77209f0ba0922463b4e5371_Trunk 2.png",
@@ -114,7 +114,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\MobLeft.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -123,7 +123,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\MobLeft2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -132,7 +132,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\MobRight1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -141,7 +141,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\MobRight2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -150,7 +150,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\PJ Left1.PNG",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -159,7 +159,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\PJ Left2.PNG",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -168,7 +168,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\PJ Right1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -177,7 +177,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\PJ Right2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -186,7 +186,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\Up1.png.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -195,7 +195,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\UpLeft.png.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -204,7 +204,16 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\UpRight.png.png",
-        "smoothed": true,
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite-0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite-0001.png",
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1125,6 +1134,7 @@
           ]
         },
         {
+<<<<<<< HEAD
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite4",
@@ -1267,6 +1277,20 @@
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
+=======
+          "assetStoreId": "",
+          "name": "NewTileMap",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "Sprite-0001.png",
+            "rowCount": 8,
+            "columnCount": 8,
+            "tileSize": 32,
+            "tilesWithHitBox": ""
+>>>>>>> b549879b8708fb5a53ccb17031881f663998e14d
           }
         }
       ],
@@ -1289,6 +1313,7 @@
             "objectName": "Trunk2"
           },
           {
+<<<<<<< HEAD
             "objectName": "NewSprite4"
           },
           {
@@ -1296,6 +1321,9 @@
           },
           {
             "objectName": "Coin2"
+=======
+            "objectName": "NewTileMap"
+>>>>>>> b549879b8708fb5a53ccb17031881f663998e14d
           }
         ]
       },
@@ -1511,6 +1539,7 @@
                 "Animation",
                 "=",
                 "\"Right\""
+<<<<<<< HEAD
               ]
             }
           ]
@@ -1648,9 +1677,44 @@
                 "Text",
                 "=",
                 "\"Coin: \" + ToString(Variable(Coin))"
+=======
+>>>>>>> b549879b8708fb5a53ccb17031881f663998e14d
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "NewSprite3",
+                "PlatformerObject",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "NewSprite3",
+                "Animation",
+                "=",
+                "\"Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
