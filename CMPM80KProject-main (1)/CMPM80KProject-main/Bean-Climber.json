@@ -101,7 +101,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Trunk 2.png\",\"extension\":\".png\"}",
         "name": "Trunk 2.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/6d9bc31a95fa9c0f6ceea454eb44bd551eeea173a77209f0ba0922463b4e5371_Trunk 2.png",
@@ -114,7 +114,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\MobLeft.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -123,7 +123,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\MobLeft2.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -132,7 +132,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\MobRight1.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -141,7 +141,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\MobRight2.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -150,7 +150,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\PJ Left1.PNG",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -159,7 +159,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\PJ Left2.PNG",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -168,7 +168,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\PJ Right1.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -177,7 +177,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\PJ Right2.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -186,7 +186,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\Up1.png.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -195,7 +195,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\UpLeft.png.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -204,16 +204,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\asset\\UpRight.png.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Sprite-0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Sprite-0001.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -427,12 +418,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI",
           "name": "Coin2",
-          "persistentUuid": "2cc2dfce-f843-4f4d-bd12-87e73ffffaa6",
+          "persistentUuid": "3fc93d76-74d4-4901-a968-307e3a77dfb1",
           "width": 0,
-          "x": 36,
-          "y": 559,
+          "x": 33,
+          "y": 556,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1134,7 +1125,6 @@
           ]
         },
         {
-<<<<<<< HEAD
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite4",
@@ -1277,20 +1267,6 @@
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
-=======
-          "assetStoreId": "",
-          "name": "NewTileMap",
-          "type": "TileMap::SimpleTileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "atlasImage": "Sprite-0001.png",
-            "rowCount": 8,
-            "columnCount": 8,
-            "tileSize": 32,
-            "tilesWithHitBox": ""
->>>>>>> b549879b8708fb5a53ccb17031881f663998e14d
           }
         }
       ],
@@ -1313,7 +1289,6 @@
             "objectName": "Trunk2"
           },
           {
-<<<<<<< HEAD
             "objectName": "NewSprite4"
           },
           {
@@ -1321,9 +1296,6 @@
           },
           {
             "objectName": "Coin2"
-=======
-            "objectName": "NewTileMap"
->>>>>>> b549879b8708fb5a53ccb17031881f663998e14d
           }
         ]
       },
@@ -1539,7 +1511,6 @@
                 "Animation",
                 "=",
                 "\"Right\""
-<<<<<<< HEAD
               ]
             }
           ]
@@ -1677,44 +1648,9 @@
                 "Text",
                 "=",
                 "\"Coin: \" + ToString(Variable(Coin))"
-=======
->>>>>>> b549879b8708fb5a53ccb17031881f663998e14d
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "NewSprite3",
-                "PlatformerObject",
-                "\"Up\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "NewSprite3",
-                "Animation",
-                "=",
-                "\"Up\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -1744,6 +1680,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
