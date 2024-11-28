@@ -646,7 +646,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7921344117998237,
+        "zoomFactor": 0.7412978919222378,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1202,8 +1202,8 @@
           "name": "Transit",
           "persistentUuid": "bf120905-dd0b-42bb-847d-e60f9aa2937c",
           "width": 0,
-          "x": -296,
-          "y": -108,
+          "x": 32,
+          "y": -32,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1221,6 +1221,22 @@
           "x": 32,
           "y": 0,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "218c5036-88e0-4834-baeb-c7b64a7f97e6",
+          "width": 0,
+          "x": 384,
+          "y": 425,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2022,7 +2038,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Text",
+          "string": "Working?",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -2045,7 +2061,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Text",
+            "text": "Working?",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -2784,55 +2800,99 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Transit",
+                    "\"TransitionTimerTest\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
                     "NewSprite3",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-                  },
-                  "parameters": [
-                    "Transit",
-                    "FlashTransitionPainter",
-                    "\"73;15;15\"",
-                    "1",
-                    "\"Circular\"",
-                    "\"Forward\"",
-                    "",
-                    ""
-                  ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Transit",
+                "\"TransitionTimerTest\"",
+                "<=",
+                "0.1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transit",
+                "FlashTransitionPainter",
+                "\"73;15;15\"",
+                "1",
+                "\"Circular\"",
+                "\"Forward\"",
+                "",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
-                  },
-                  "parameters": [
-                    "Transit",
-                    "FlashTransitionPainter",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Restart\"",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coin2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TimerTX",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+              },
+              "parameters": [
+                "Transit",
+                "FlashTransitionPainter",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Restart\"",
+                ""
               ]
             }
           ]
@@ -3322,6 +3382,14 @@
               "parameters": [
                 "",
                 "\"Count\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "NewText"
               ]
             }
           ]
@@ -5517,7 +5585,7 @@
               },
               "parameters": [
                 "",
-                "\"Starting\"",
+                "\"Gameplay Scene\"",
                 ""
               ]
             }
