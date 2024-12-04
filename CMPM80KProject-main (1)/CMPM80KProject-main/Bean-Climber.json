@@ -598,6 +598,96 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
           "name": "ArchitectsDaughter.ttf"
         }
+      },
+      {
+        "file": "Between The Spaces - The Soundlings(gameplay).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Between The Spaces - The Soundlings(gameplay).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Moving In The Shadows - The Soundlings(gameplay).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Moving In The Shadows - The Soundlings(gameplay).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Win The Battle Win The War - Everet Almond(victory soundtrack).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Win The Battle Win The War - Everet Almond(victory soundtrack).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Blue Screen Of Death - The Soundlings(death cutscene).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Blue Screen Of Death - The Soundlings(death cutscene).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "BonkMob.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BonkMob.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Windshield Hit With Bar(jump).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Windshield Hit With Bar(jump).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "vineGrowing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "vineGrowing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "foosteps.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "foosteps.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "climbing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "climbing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -609,20 +699,14 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Settings",
-      "type": "structure",
-      "children": [
-        {
-          "name": "BackgroundMusic",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "Sound",
-          "type": "number",
-          "value": 0
-        }
-      ]
+      "name": "GlobalMusicVolume",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "name": "GlobalSoundVolume",
+      "type": "number",
+      "value": 50
     }
   ],
   "layouts": [
@@ -1566,9 +1650,20 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "",
+                "GlobalMusicVolume",
                 "=",
                 "Background_Music_Slider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GlobalMusicVolume"
               ]
             }
           ]
@@ -1592,9 +1687,21 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "",
+                "GlobalSoundVolume",
                 "=",
                 "Sound_Slider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "d32cb297988f21b74f7f893fff28430f0198b3c1f8a6c0622520e9158b284d3f_jump.aac",
+                "",
+                "GlobalSoundVolume",
+                "1"
               ]
             }
           ]
@@ -1765,6 +1872,55 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "Background_Music_Slider",
+                "=",
+                "GlobalMusicVolume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Between The Spaces - The Soundlings(gameplay).mp3",
+                "1",
+                "GlobalMusicVolume",
+                "GlobalMusicVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalSoundVolume",
+                "=",
+                "Sound_Slider.Value()"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -1859,7 +2015,7 @@
       "name": "Tutorial Scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -2695,6 +2851,15 @@
               "parameters": [
                 "LeftSprite",
                 "\"LeftAnimationTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "RePlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -5338,8 +5503,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "Ladder",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Ladder",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -6179,6 +6344,18 @@
                     "NewSprite2",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Windshield Hit With Bar(jump).mp3",
+                    "",
+                    "GlobalSoundVolume",
+                    "0.5"
+                  ]
                 }
               ]
             },
@@ -6213,6 +6390,18 @@
                   "parameters": [
                     "NewSprite3",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Windshield Hit With Bar(jump).mp3",
+                    "",
+                    "",
+                    "0.0035"
                   ]
                 }
               ]
@@ -6468,7 +6657,7 @@
                 "",
                 "d32cb297988f21b74f7f893fff28430f0198b3c1f8a6c0622520e9158b284d3f_jump.aac",
                 "",
-                "",
+                "GlobalSoundVolume",
                 "1145"
               ]
             },
@@ -6545,6 +6734,36 @@
                 "Platform",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "vineGrowing.mp3",
+                "3",
+                "no",
+                "GlobalSoundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
             }
           ]
         },
@@ -6592,6 +6811,36 @@
                 "Platform",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "vineGrowing.mp3",
+                "3",
+                "no",
+                "GlobalSoundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
             }
           ]
         },
@@ -6638,6 +6887,36 @@
                 "Trunk4",
                 "Platform",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "vineGrowing.mp3",
+                "3",
+                "no",
+                "GlobalSoundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
               ]
             }
           ]
@@ -6695,6 +6974,36 @@
                 "NewSprite9",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "vineGrowing.mp3",
+                "3",
+                "no",
+                "GlobalSoundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
             }
           ]
         },
@@ -6741,6 +7050,36 @@
                 "Trunk6",
                 "Platform",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "vineGrowing.mp3",
+                "3",
+                "no",
+                "GlobalSoundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
               ]
             }
           ]
@@ -6807,6 +7146,36 @@
                 "NewSprite12",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "vineGrowing.mp3",
+                "3",
+                "no",
+                "GlobalSoundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
             }
           ]
         },
@@ -6863,6 +7232,36 @@
                 "NewSprite12",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "vineGrowing.mp3",
+                "3",
+                "no",
+                "GlobalSoundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
             }
           ]
         },
@@ -6909,6 +7308,36 @@
                 "Trunk9",
                 "Platform",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "vineGrowing.mp3",
+                "3",
+                "no",
+                "GlobalSoundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
               ]
             }
           ]
@@ -7095,6 +7524,19 @@
               "parameters": [
                 "Trunk9"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Moving In The Shadows - The Soundlings(gameplay).mp3",
+                "1",
+                "",
+                "GlobalMusicVolume",
+                "1"
+              ]
             }
           ]
         },
@@ -7186,6 +7628,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -7737,6 +8184,34 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Win The Battle Win The War - Everet Almond(victory soundtrack).mp3",
+                "1",
+                "",
+                "GlobalMusicVolume",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -8137,6 +8612,34 @@
                 "",
                 "\"Gameplay Scene\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Blue Screen Of Death - The Soundlings(death cutscene).mp3",
+                "1",
+                "",
+                "GlobalMusicVolume",
+                "1"
               ]
             }
           ]
