@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 218,
+    "build": 219,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -65,7 +65,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/NewTiledSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite.png\"}",
@@ -74,7 +73,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tilemap_packed2.png",
         "kind": "image",
         "metadata": "",
@@ -87,7 +85,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -96,7 +93,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Trunk 2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Trunk 2.png\",\"extension\":\".png\"}",
@@ -109,7 +105,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/MobLeft.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/asset/MobLeft.png\",\"extension\":\".png\"}",
@@ -118,7 +113,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/MobLeft2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/asset/MobLeft2.png\",\"extension\":\".png\"}",
@@ -127,7 +121,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/MobRight1.png",
         "kind": "image",
         "metadata": "",
@@ -136,7 +129,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/MobRight2.png",
         "kind": "image",
         "metadata": "",
@@ -145,7 +137,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/PJ Left1.PNG",
         "kind": "image",
         "metadata": "",
@@ -154,7 +145,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/PJ Left2.PNG",
         "kind": "image",
         "metadata": "",
@@ -163,7 +153,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/PJ Right1.png",
         "kind": "image",
         "metadata": "",
@@ -172,7 +161,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/PJ Right2.png",
         "kind": "image",
         "metadata": "",
@@ -181,7 +169,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/Up1.png.png",
         "kind": "image",
         "metadata": "",
@@ -190,7 +177,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/UpLeft.png.png",
         "kind": "image",
         "metadata": "",
@@ -199,7 +185,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/asset/UpRight.png.png",
         "kind": "image",
         "metadata": "",
@@ -208,7 +193,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -231,7 +215,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Sprite0.png",
         "kind": "image",
         "metadata": "",
@@ -240,7 +223,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Sprite1.png",
         "kind": "image",
         "metadata": "",
@@ -249,7 +231,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Sprite2.png",
         "kind": "image",
         "metadata": "",
@@ -258,7 +239,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Sprite3.png",
         "kind": "image",
         "metadata": "",
@@ -267,7 +247,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Sprite4.png",
         "kind": "image",
         "metadata": "",
@@ -276,7 +255,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -285,7 +263,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -294,7 +271,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Sparks.png",
         "kind": "image",
         "metadata": "",
@@ -307,7 +283,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New image.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -344,7 +319,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "xjjWOkt_RI_OAG2UMn82OzqC.ttf_0.png",
         "kind": "image",
         "metadata": "",
@@ -360,7 +334,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "o9thdC_U8VsPCnlquuX93OY9.ttf_0.png",
         "kind": "image",
         "metadata": "",
@@ -376,7 +349,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
         "kind": "image",
         "metadata": "",
@@ -385,7 +357,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -394,7 +365,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Square Green Slider Border.png",
         "kind": "image",
         "metadata": "",
@@ -407,7 +377,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Square Green Slider Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -420,7 +389,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Square Green Slider Thumb.png",
         "kind": "image",
         "metadata": "",
@@ -440,7 +408,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "../../../../../Downloads/Gothic Stencil - Dker.ttf/mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
         "kind": "image",
         "metadata": "",
@@ -449,7 +416,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/UpArrowKey.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/UpArrowKey.png\"}",
@@ -458,7 +424,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -467,7 +432,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/UpArrowKey2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -476,7 +440,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/UpArrowKey3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -485,7 +448,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -494,7 +456,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -503,7 +464,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -512,7 +472,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -532,7 +491,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite11.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -541,7 +499,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -550,7 +507,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -563,7 +519,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -576,7 +531,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -730,7 +684,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5685495294107179,
+        "zoomFactor": 0.31297760858830914,
         "windowMask": false
       },
       "objectsGroups": [
@@ -748,6 +702,12 @@
             },
             {
               "name": "Back"
+            },
+            {
+              "name": "Credit"
+            },
+            {
+              "name": "NextPage"
             }
           ]
         }
@@ -953,6 +913,292 @@
           "x": 544,
           "y": -160,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Credit",
+          "persistentUuid": "5cdd7602-ec74-4143-aacb-6c1203267c7c",
+          "width": 192,
+          "x": 32,
+          "y": 530,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CreditMark",
+          "persistentUuid": "4dc734ca-e5af-4b72-96f0-e4ffaf482d11",
+          "width": 800,
+          "x": 0,
+          "y": 768,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Developers",
+          "persistentUuid": "883f7d44-76e9-42a4-9109-b8a12c81f8d7",
+          "width": 384,
+          "x": 32,
+          "y": 818,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Siyan_Li",
+          "persistentUuid": "4c8723df-ddfb-4c5b-9556-0f0354dee9e9",
+          "width": 178,
+          "x": 32,
+          "y": 1024,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Kevin",
+          "persistentUuid": "b54dd998-75bd-42c7-ade2-6dacd50eef32",
+          "width": 128,
+          "x": 32,
+          "y": 1152,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alex",
+          "persistentUuid": "932c0123-ed89-4a61-8cda-31f4eb97b7c5",
+          "width": 128,
+          "x": 32,
+          "y": 896,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 359,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text___",
+          "persistentUuid": "18548029-296f-4698-9c91-a51d8e2a0d9b",
+          "width": 47,
+          "x": 145,
+          "y": 928,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text___",
+          "persistentUuid": "46447bfb-ee95-40fe-86ad-e638dcd9a386",
+          "width": 49,
+          "x": 207,
+          "y": 1056,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coder",
+          "persistentUuid": "3bf19122-00c0-4563-bcd8-6d2ef3593a99",
+          "width": 152,
+          "x": 264,
+          "y": 1024,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coder",
+          "persistentUuid": "1e0b6cf8-64b1-467b-bd0e-4e0d3de90196",
+          "width": 0,
+          "x": 192,
+          "y": 896,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Level_Design",
+          "persistentUuid": "6a3d4293-24a4-415b-99eb-3a9292b2d7d7",
+          "width": 322,
+          "x": 416,
+          "y": 960,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Art_Creater",
+          "persistentUuid": "d2e44c1d-f9c5-4c79-8523-58d99c075ea6",
+          "width": 322,
+          "x": 64,
+          "y": 1088,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Art_Creater",
+          "persistentUuid": "c68d3455-1c1a-43ac-b265-a1b3086bccb3",
+          "width": 0,
+          "x": 64,
+          "y": 960,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MusicSound",
+          "persistentUuid": "94c8ee7e-6232-4790-961d-5d957de4cb12",
+          "width": 0,
+          "x": 64,
+          "y": 1216,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text___",
+          "persistentUuid": "6b544110-6fab-49a2-88e2-9dd7f526fef7",
+          "width": 64,
+          "x": 160,
+          "y": 1184,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NextPage",
+          "persistentUuid": "fad623a1-c47a-48dd-85b8-9491c300803f",
+          "width": 320,
+          "x": 448,
+          "y": 1312,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Credit2Mark",
+          "persistentUuid": "4df4e005-efc8-4910-be07-27bd22f76d4c",
+          "width": 800,
+          "x": 960,
+          "y": 768,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1555,6 +1801,420 @@
             "g": 0,
             "b": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Credit",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Credit",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CreditMark",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Developers",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Developers",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Siyan_Li",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Siyan Li",
+            "opacity": 255,
+            "scale": 0.4,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Kevin",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Kevin",
+            "opacity": 255,
+            "scale": 0.4,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Alex",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Alex",
+            "opacity": 255,
+            "scale": 0.4,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Text___",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-",
+          "font": "804340f46c974331793dbe29e5efab57db6d59fc6b65d3a1837fe4309d194abb_NotoSansArabicUI-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "65;117;5",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "65;117;5",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "-",
+            "font": "804340f46c974331793dbe29e5efab57db6d59fc6b65d3a1837fe4309d194abb_NotoSansArabicUI-Bold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "bottom",
+            "characterSize": 50,
+            "color": "65;117;5"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Coder",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Coder",
+            "opacity": 255,
+            "scale": 0.4,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Level_Design",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Level   Design",
+            "opacity": 255,
+            "scale": 0.4,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Art_Creater",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Art    Creater",
+            "opacity": 255,
+            "scale": 0.4,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MusicSound",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Music   And   Sound   Producer",
+            "opacity": 255,
+            "scale": 0.4,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NextPage",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Next   Page",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "24;82;27",
+            "bitmapFontResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf.fnt",
+            "textureAtlasResourceName": "mCIkmFTAFyDhSwzGZemTXcQ7.ttf_0.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Credit2Mark",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1564,6 +2224,30 @@
             "objectName": "StartMenu"
           },
           {
+            "objectName": "Developers"
+          },
+          {
+            "objectName": "Siyan_Li"
+          },
+          {
+            "objectName": "Alex"
+          },
+          {
+            "objectName": "Kevin"
+          },
+          {
+            "objectName": "Coder"
+          },
+          {
+            "objectName": "Level_Design"
+          },
+          {
+            "objectName": "Art_Creater"
+          },
+          {
+            "objectName": "MusicSound"
+          },
+          {
             "objectName": "Start"
           },
           {
@@ -1571,6 +2255,12 @@
           },
           {
             "objectName": "Settings"
+          },
+          {
+            "objectName": "NextPage"
+          },
+          {
+            "objectName": "Credit"
           },
           {
             "objectName": "Background_Music"
@@ -1591,10 +2281,19 @@
             "objectName": "SettingMark"
           },
           {
+            "objectName": "Credit2Mark"
+          },
+          {
+            "objectName": "CreditMark"
+          },
+          {
             "objectName": "Background_Music_Slider"
           },
           {
             "objectName": "Sound_Slider"
+          },
+          {
+            "objectName": "Text___"
           }
         ]
       },
@@ -1756,6 +2455,68 @@
                 "",
                 "\"CameraMove\"",
                 "SettingMark.CenterX()",
+                "CameraCenterY()",
+                "",
+                "\"easeInOutQuad\"",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Credit",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "CameraCenterX()",
+                "1067",
+                "",
+                "\"easeInOutQuad\"",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "NextPage",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "Credit2Mark.CenterX()",
                 "CameraCenterY()",
                 "",
                 "\"easeInOutQuad\"",
