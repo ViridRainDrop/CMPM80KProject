@@ -1202,6 +1202,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Back",
+          "persistentUuid": "b67e2d24-9289-437f-8a4e-3959a0684915",
+          "width": 0,
+          "x": 1280,
+          "y": 1280,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 231,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "9cc3655e-4d9f-4fe3-b7c2-886dfa0ffc1c",
+          "width": 768,
+          "x": 992,
+          "y": 896,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2215,6 +2248,48 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Title Music - Between The Spaces - The Soundlings(gameplay)\nGameplay Music - Moving in the Shadows - The Sounglings(gameplay)\nLose Screen - Blue Screen of Death - The Soundlings(death cutscene)\nWin Screen - Win The Battle Win The War - Everet Almond(victory soundtrack)\nVine Growth Sound - Wiping Off the Counter\nHit Sounds - Windshield hit with Bar\n",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "98;255;140",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Title Music - Between The Spaces - The Soundlings(gameplay)\nGameplay Music - Moving in the Shadows - The Sounglings(gameplay)\nLose Screen - Blue Screen of Death - The Soundlings(death cutscene)\nWin Screen - Win The Battle Win The War - Everet Almond(victory soundtrack)\nVine Growth Sound - Wiping Off the Counter\nHit Sounds - Windshield hit with Bar\n",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2294,6 +2369,9 @@
           },
           {
             "objectName": "Text___"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
